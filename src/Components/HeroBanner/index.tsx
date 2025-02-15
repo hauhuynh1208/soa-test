@@ -36,19 +36,19 @@ const Herobanner = () => (
     <div className="flex w-[1240px] max-sm:w-full mx-auto px-[80px] max-sm:px-4 py-[20px] max-sm:py-6 z-1">
       <div className="flex max-sm:flex-col max-sm:gap-2 flex-1 justify-center items-center">
         <MountainsSVG />
-        <span className="text-[14px] leading-4 font-semibold tracking-[.8px] text-white">
+        <span className="sm:hidden text-[14px] leading-4 font-semibold tracking-[.8px] text-white">
           Activité 1
         </span>
       </div>
       <div className="flex max-sm:flex-col max-sm:gap-2 flex-1 justify-center items-center">
         <FishingSVG />
-        <span className="text-[14px] leading-4 font-semibold tracking-[.8px] text-white">
+        <span className="sm:hidden text-[14px] leading-4 font-semibold tracking-[.8px] text-white">
           Activité 2
         </span>
       </div>
       <div className="flex max-sm:flex-col max-sm:gap-2 flex-1 justify-center items-center">
         <CrosshairSVG />
-        <span className="text-[14px] leading-4 font-semibold tracking-[.8px] text-white">
+        <span className="sm:hidden text-[14px] leading-4 font-semibold tracking-[.8px] text-white">
           Activité 3
         </span>
       </div>

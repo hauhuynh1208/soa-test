@@ -5,7 +5,7 @@ import HuntingImg3 from "../../assets/hunting-card-3.png";
 import { HuntingCard } from "./HuntingCard";
 
 const AdventureSection = () => (
-  <div className="flex flex-col gap-[40px] max-sm:gap-[20px] w-[1240px] max-sm:w-full mx-auto py-[80px] max-sm:py-6 max-sm:px-4">
+  <div className="flex flex-col gap-[40px] max-sm:gap-[20px] w-[1240px] max-sm:w-full mx-auto max-sm:px-4">
     <div className="flex flex-col gap-4 max-sm:gap-1 justify-center items-center">
       <div className="relative flex w-full justify-center items-center">
         <HorizontalDivider className="absolute max-sm:hidden" />
