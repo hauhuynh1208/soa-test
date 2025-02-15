@@ -6,7 +6,7 @@ import HeroImg1 from "../../assets/hero-img-1.png";
 const Herobanner = () => (
   <div className="flex flex-col justify-between w-screen h-[100vh] relative pb-[80px]">
     <div className="absolute top-0 left-0 w-full h-full">
-      <img src={HeroImg1} className="w=full h-full object-cover" />
+      <img src={HeroImg1} className="w-full h-full object-cover" />
     </div>
     {/* Header */}
     <div className="flex h-[72px] justify-center items-center border-b border-[#EEEEEE33] bg-[#562C2CB2] backdrop-blur-[7.5px]">
